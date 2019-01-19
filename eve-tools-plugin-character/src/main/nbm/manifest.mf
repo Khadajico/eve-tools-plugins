@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: com/arrggh/eve/tools/plugin/character/Installer.class
+OpenIDE-Module-Layer: com/arrggh/eve/tools/plugin/character/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/arrggh/eve/tools/plugin/character/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.${buildNumber}
+OpenIDE-Module-Implementation-Version: 1.${buildNumber}
+

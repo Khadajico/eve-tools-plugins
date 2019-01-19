@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: com/arrggh/eve/tools/plugin/sde/api/Installer.class
+OpenIDE-Module-Localizing-Bundle: com/arrggh/eve/tools/plugin/sde/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.${buildNumber}
+OpenIDE-Module-Implementation-Version: 1.${buildNumber}
+
