@@ -255,7 +255,7 @@ public class AuthorisedCharacterDialog extends javax.swing.JDialog implements IM
         try {
             String json = mapper.writeValueAsString(state);
             String encoded = Base64.getEncoder().encodeToString(json.getBytes());
-            return "https://eve-auth-server.cfapps.io/authorise?state=" + encoded;
+            return "https://eve-tools-auth.herokuapp.com/authorise?state=" + encoded;
         } catch (JsonProcessingException ex) {
             throw new IllegalStateException("Cannot create url", ex);
         }
